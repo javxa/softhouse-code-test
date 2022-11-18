@@ -1,0 +1,1 @@
+## Detta är endast ett urklipp av XML-biblioteket som finns i WSE
