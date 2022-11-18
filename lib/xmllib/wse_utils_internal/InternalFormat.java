@@ -70,7 +70,7 @@ public class InternalFormat {
 			throw new WseParsingException(
 					String.format("No suitable parser found for mimetype '%s'", mt.getFullName()));
 
-		return parser.parse(input, cs);
+		return parser.parse(input, cs, options);
 	}
 
 	public static ILeaf createEmpty(MimeType mt) {
